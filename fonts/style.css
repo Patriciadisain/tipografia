@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?scrtxd');
+  src:  url('fonts/icomoon.eot?scrtxd#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?scrtxd') format('truetype'),
+    url('fonts/icomoon.woff?scrtxd') format('woff'),
+    url('fonts/icomoon.svg?scrtxd#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-montañita:before {
+  content: "\e900"; 
+  color: #FFFFFF;
+  font-size: 60px;
+}
+
+.icon-diamond:before {
+  content: "\e901";
+  color: #FFFFFF;
+  font-size: 60px;
+}
+.icon-code:before {
+  content: "\e902";
+  color: #FFFFFF;
+  font-size: 60px;
+}
+.icon-satanic:before {
+  content: "\e903";
+  color: #FFFFFF;
+  font-size: 60px;
+}
+.icon-amors:before {
+  content: "\35";
+  color: #FFFFFF;
+  font-size: 60px;
+}
+
